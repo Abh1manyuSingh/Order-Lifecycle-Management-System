@@ -29,9 +29,10 @@ Each Order contains:
 ---
 
 ## Order Lifecycle
-CREATED → CONFIRMED → PACKED → SHIPPED → DELIVERED → RETURNED
-↓          ↓
-CANCELLED  CANCELLED
+
+CREATED → CONFIRMED → PACKED → SHIPPED → DELIVERED → RETURNED<br>
+&nbsp;&nbsp;&nbsp;↓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓<br>
+CANCELLED&nbsp;&nbsp;&nbsp;CANCELLED
 
 
 ### Lifecycle Rules
