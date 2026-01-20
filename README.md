@@ -33,6 +33,7 @@ CREATED → CONFIRMED → PACKED → SHIPPED → DELIVERED → RETURNED
 ↓          ↓
 CANCELLED  CANCELLED
 
+
 ### Lifecycle Rules
 - Initial state is always `CREATED`
 - Orders can move only forward
