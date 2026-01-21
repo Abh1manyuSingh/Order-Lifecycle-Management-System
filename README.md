@@ -100,5 +100,67 @@ OrderLifecycle/
 └── EdgeCaseTestLoader.java
 
 
-Conclusion
+###Conclusion
 This project fulfills all assignment requirements using plain Java and demonstrates clean design, strong lifecycle enforcement, and real-world backend problem modeling without frameworks.
+
+
+###OUTPUT
+
+==============================
+Order Life Cycle Management
+==============================
+Loading Sample Data...
+
+Order Created Successfully
+Order ID: 101
+Customer Name: Customer-A
+Product: Mobile Phone
+Quantity: 2
+Order Amount: 40000
+Order Status: CREATED
+
+Processing Payment...
+Payment ID: P-1001
+Payment Mode: CREDIT_CARD
+Payment Status: SUCCESS
+
+Updating Order Status...
+Order Status updated to: CONFIRMED
+
+Shipping Order...
+Shipment ID: S-501
+Courier Partner: BlueDart
+Order Status: SHIPPED
+
+Delivering Order...
+Order Status updated to: DELIVERED
+
+==============================
+Order Completed Successfully
+==============================
+
+------------------------------
+
+==============================
+Edge Case Test Execution
+==============================
+Loading Edge Case Data...
+
+Order Created Successfully
+Order ID: 102
+Customer Name: Customer-B
+Product: Headphones
+Quantity: 0
+Order Amount: 0
+Order Status: CREATED
+
+Processing Payment...
+Payment Failed
+Reason: Invalid order amount
+
+Updating Order Status...
+Order Status updated to: CANCELLED
+
+==============================
+Order Cancelled Due to Edge Case
+==============================
