@@ -164,3 +164,5 @@ Order Status updated to: CANCELLED
 ==============================
 Order Cancelled Due to Edge Case
 ==============================
+
+The application was tested using both SampleDataLoader for normal scenarios and EdgeCaseTestLoader for validating edge cases.
